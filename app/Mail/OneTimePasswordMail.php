@@ -38,7 +38,7 @@ class OneTimePasswordMail extends Mailable
     public function build()
     {
         return $this->markdown('vendor.notifications.first_time_login')
-            ->from('ethiopiacovidr19esponse@gmail.com')->subject(
+            ->from('emailfrom@gmail.com')->subject(
                 'Your password to login to Covid-19 CallCenter'
             )->with(([
                 'name' => $this->user->first_name . ' ' . $this->user->last_name,
