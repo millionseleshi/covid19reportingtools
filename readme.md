@@ -1,4 +1,4 @@
-#Ethio Covid-19 reporting tool#
+##Ethio Covid-19 reporting tool
 
 About the project
 
